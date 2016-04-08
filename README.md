@@ -22,8 +22,9 @@
 	+ 布局 expandableListView 
 	+ 多线程请求Thread
 	
-![login_ok](https://github.com/qiu0130/usthAPI/img/login_ok.gif)
-![login_error](https://github.com/qiu0130/usthAPI/img/login_error.gif)
+![login_ok](https://github.com/qiu0130/usthAPI/blob/master/img%2Flogin_ok.gif)
+
+![login_error](https://github.com/qiu0130/usthAPI/blob/master/img%2Flogin_error.gif)
 
 + IOS
 ...
