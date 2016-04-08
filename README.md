@@ -1,52 +1,31 @@
 # 黑科技成绩查询API
 
-> usthAPI
+> 黑龙江科技大学校园成绩查询API
 
 ### Get
  
-[http://www.usth.applinzi.com](http://www.usth.applinzi.com) (json)
++ Json [http://www.usth.applinzi.com](http://www.usth.applinzi.com)
 
-### 说明
-+ 不及格成绩
-```
-{
-status: "ok",
-尚不及格成绩: [ ],
-_id: "2013025305",
-create_time: "2016-04-02 09:34:12",
-曾不及格成绩: []
-}
-```
+### Usage
 
-+ 本学期成绩
 
-```
-{
-status: "ok",
-_id: "2013025305",
-create_time: "2016-04-02 10:35:44",
-本学期成绩: []
-}
-```
++ Post username=xx&password=xx&type=semester/fail/passing
 
-+ 全部及格成绩
+### 后台
++ 抓取 requests + BeautifulSoup
++ 部署 Tornado
 
-```
-{
-status: "ok",
-_id: "2013025305",
-create_time: "2016-04-02 10:36:21",
-全部及格成绩: {}
-}
-```
+### 前台
 
-+ 出错
++ [Android](https://github.com/qiu0130/usthAPI/黑科技查询成绩v1.apk)
+	+ 布局 expandableListView 
+	+ 多线程请求Thread
+	
+[login_ok](https://github.com/qiu0130/usthAPI/img/login_ok.gif)
+[login_error](https://github.com/qiu0130/usthAPI/img.login_error.gif)
 
-```
-{
-error: "您的密码不正确，请您重新输入！"
-}
-```
++ IOS
+...
 
 ### 其他
 The MIT License
