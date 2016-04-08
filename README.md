@@ -1,14 +1,10 @@
-# 黑科技成绩查询API
+# usthAPI
 
 > 黑龙江科技大学校园成绩查询API
 
-### Get
- 
-+ Json [http://www.usth.applinzi.com](http://www.usth.applinzi.com)
 
 ### Usage
-
-
++ JSON [http://www.usth.applinzi.com](http://www.usth.applinzi.com)
 + Post username=xx&password=xx&type=semester/fail/passing
 
 ### 后台
