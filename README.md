@@ -18,6 +18,7 @@
 ### 前台
 
 + [Android](https://github.com/qiu0130/usthAPI/黑科技查询成绩v1.apk)
+	+ SDK >= 23 
 	+ 布局 expandableListView 
 	+ 多线程请求Thread
 	
