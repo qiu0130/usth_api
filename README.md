@@ -17,7 +17,9 @@
 	+ SDK >= 23 
 	+ 布局 expandableListView 
 	+ 多线程请求Thread
+	
 + 演示
+
 ![login_ok](https://github.com/qiu0130/usthAPI/blob/master/img%2Flogin_ok.gif)
 
 ![login_error](https://github.com/qiu0130/usthAPI/blob/master/img%2Flogin_error.gif)
