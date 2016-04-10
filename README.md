@@ -5,7 +5,7 @@
 
 ### Usage
 + JSON [http://www.usth.applinzi.com](http://www.usth.applinzi.com)
-+ Post username=xx&password=xx&type=semester/fail/passing
++ Post username=xxx&password=xxx
 
 ### 后台
 + 抓取 requests + BeautifulSoup
@@ -16,7 +16,7 @@
 + [Android](https://github.com/qiu0130/usthAPI/blob/master/%E9%BB%91%E7%A7%91%E6%8A%80%E6%9F%A5%E8%AF%A2%E6%88%90%E7%BB%A9v1.apk)
 	+ SDK >= 23 
 	+ 布局 expandableListView 
-	+ 多线程请求Thread
+	+ 多线程请求thread
 	
 + 演示
 
@@ -25,6 +25,7 @@
 ![login_error](https://github.com/qiu0130/usthAPI/blob/master/img%2Flogin_error.gif)
 
 + IOS
+
 ...
 
 ### 其他
