@@ -4,8 +4,9 @@
 
 
 ### Usage
-+ JSON [http://www.usth.applinzi.com](http://www.usth.applinzi.com)
-+ Post username=xxx&password=xxx
+
++ url　[http://www.usth.applinzi.com/api](http://www.usth.applinzi.com/api)
++ post username=xxx&password=xxx
 
 ### 后台
 + 抓取 requests + BeautifulSoup
@@ -24,9 +25,7 @@
 
 ![login_error](https://github.com/qiu0130/usthAPI/blob/master/img%2Flogin_error.gif)
 
-+ IOS
 
-...
 
 ### 其他
 The MIT License
