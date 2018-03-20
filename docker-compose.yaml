@@ -1,0 +1,14 @@
+version: '3'
+
+services:
+  db:
+    image: redis:4
+  web:
+    build: .
+    volumes:
+      - .:/app
+    ports:
+      - "8080:8080"
+    depends_on:
+      - db
+    command: python3 /app/usth_api/app.py --port=8080 --log-file=/app/usth_api.log
