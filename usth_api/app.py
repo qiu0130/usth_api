@@ -6,7 +6,8 @@ import tornado.ioloop
 import tornado.httpserver
 from tornado.options import options, define
 
-from usth_api.handler import ApiHandler
+from handler import ApiHandler
+
 
 def main():
     define("port", default=8080, help="run on the given port", type=int)
@@ -20,5 +21,7 @@ def main():
     application.listen(options.port)
     tornado.ioloop.IOLoop.instance().start()
     print("start...")
+
+
 if __name__ == "__main__":
     main()
